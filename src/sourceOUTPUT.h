@@ -19,4 +19,5 @@ float fanCONTROL(float tempVALUE)
     {
         digitalWrite(FAN02PIN, HIGH);
     }
+    return 0;
 }
